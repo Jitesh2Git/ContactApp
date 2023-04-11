@@ -13,11 +13,11 @@
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".AddActivity"
-            android:label="Add Book"
+            android:label="Add Contact"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="Book Library">
+            android:label="Contacts">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
