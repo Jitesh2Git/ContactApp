@@ -8,59 +8,59 @@
     android:padding="30dp">
 
     <EditText
-        android:id="@+id/title_input2"
+        android:id="@+id/name_input2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:ems="10"
-        android:hint="Book Title"
+        android:hint="Name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/author_input2"
+        android:id="@+id/address_input2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Book Author"
+        android:hint="Address"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_input2" />
+        app:layout_constraintTop_toBottomOf="@+id/name_input2" />
 
     <EditText
-        android:id="@+id/pages_input2"
+        android:id="@+id/phoneno_input2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Number of pages"
+        android:hint="Phone Number"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/author_input2" />
+        app:layout_constraintTop_toBottomOf="@+id/address_input2" />
 
     <Button
         android:id="@+id/update_button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="40dp"
-        android:text="Update"
+        android:text="Update Contact"
         android:textSize="20sp"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pages_input2" />
+        app:layout_constraintTop_toBottomOf="@+id/phoneno_input2" />
 
     <Button
         android:id="@+id/delete_button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="16dp"
-        android:text="Delete"
+        android:text="Delete Contact"
         android:textAllCaps="false"
         android:textColor="@color/red"
         android:textSize="20sp"
