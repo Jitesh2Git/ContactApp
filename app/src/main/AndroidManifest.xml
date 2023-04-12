@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jovanovic.stefan.sqlitetutorial">
+    package="com.sqlite.example.ContactsApp">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateActivity"
-            android:parentActivityName=".MainActivity"/>
+        <activity android:name="com.sqlite.example.ContactsApp.UpdateActivity"
+            android:parentActivityName="com.sqlite.example.ContactsApp.MainActivity"/>
         <activity
-            android:name=".AddActivity"
+            android:name="com.sqlite.example.ContactsApp.AddActivity"
             android:label="Add Contact"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.sqlite.example.ContactsApp.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.sqlite.example.ContactsApp.MainActivity"
             android:label="Contacts">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

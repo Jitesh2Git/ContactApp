@@ -1,4 +1,4 @@
-package com.jovanovic.stefan.sqlitetutorial;
+package com.sqlite.example.ContactsApp;
 
 import org.junit.Test;
 
